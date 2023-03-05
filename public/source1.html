@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Foodbridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Libre+Baskerville&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="../css/general.css" rel="stylesheet" />
+    <link href="../css/source1.css" rel="stylesheet" />
+    <script src="../js/helpers.js"></script>
+    <script defer src="../js/source1.js"></script>
+  </head>
+  <body class="flex-container column">
+    <header class="flex-container">
+      <img src = "images/logo.png" id = "logo-img">
+      <nav>
+        <ul>
+          <li><a href="source1.html">Stores</a></li>
+          <li ><a href="driver.html">Drivers</a></li>
+          <li ><a href="bank.html">Food Banks</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main class = "flex-container column">
+      <section>
+        <section class="flex-container column auction">
+          <h1>Foodbridge</h1>
+          <section id="source1" class="flex-container column">
+            <h6>Enter Your Package Details</h6>
+            <section class="flex-container">
+              <label for="store_name">Store Name:</label>
+              <input type="text" id="store_name">
+            </section>
+
+            <section class="flex-container">
+              <label for="text">Item Name:</label>
+              <input type='text' id='idea' />
+            </section>
+            <input type='button' value='Add to list' id='add' />
+            Current Items
+            <ul id='list' class="flex-container"></ul>
+
+            <section class="flex-container">
+              <label for="retail_price">Retail Price:</label>
+              <input id="retail_price" type="number">
+            </section>
+            
+            <section class="flex-container">
+              <label for="offer_price">Discounted Price:</label>
+              <input id="offer_price" type="number">
+            </section>
+
+            <input type="submit">
+          </section>
+          <section id="source2" class="flex-container column hidden">
+            <h6>Current Package Status</h6>
+            <section class="flex-container three-column">
+              <section class="flex-container column">
+              </section>
+              <section class="flex-container column">
+              </section>
+              <section class="flex-container column">
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+
+    </main>
+    <footer class="flex-container">
+      <h4>Any food can make the difference!</h4>
+      <section class="flex-container">
+        <h5>Contact Us At info@foodbridge.com</h5>
+      </section>
+    </footer>
+  </body>
+</html>

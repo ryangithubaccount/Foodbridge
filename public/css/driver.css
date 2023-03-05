@@ -1,0 +1,65 @@
+main {
+  background: url("../images/drive_background.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+.auction {
+  background-color: rgba(86, 104, 114, 0.8);
+  padding: 50px;
+  padding-right: 75px;
+  padding-left: 75px;
+  border-radius: 50px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 17.5px;
+  border-radius:10px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Libre Baskerville', serif;
+  padding: 5px;
+}
+
+.success {
+  width: 100%;
+  font-size: 24px;
+  padding: 20px;
+  background-color: #38a233;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+  color: #781616;
+  text-decoration: underline;
+}
+
+.message {
+  position: fixed;
+  width: 40%;
+  top: 30%;
+  left: 30%;
+  border-radius: 20px;
+}
+
+.bottom-half {
+  background-color: white;
+  width: 100%;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight:bold;
+}

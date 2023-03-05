@@ -1,0 +1,11 @@
+{"deal1":{"bank_name":"World Harvest Food Bank","bank_offer":1600,"driver_name":"Adam Clark","contents":["Brocolli","Beef", "Chicken"],"distance":7,
+"driver_offer":150,"retail_price":10000,"store_name":"Krogers","store_offer":1500},
+"deal2":{"bank_name":"LA Regional Food Bank","bank_offer":1100,"driver_name":"David Gomez","contents":["Apples", "Bananas", "Potatos"],"distance":3,
+"driver_offer":150,"retail_price":5000,"store_name":"Vons","store_offer":1000},
+"deal3":{"bank_name":"Pasadena Union Station","bank_offer":850,"driver_name":"Daniel Chang","contents":["Brocolli","Bread"],"distance":6,
+"driver_offer":200,"retail_price":4500,"store_name":"Ralphs","store_offer":800},
+"deal4":{"bank_name":"Project Angel Food","bank_offer":1100,"driver_name":"Steve Chen","contents":["Pasta", "Beans", "Cabbage"],"distance":5,
+"driver_offer":125,"retail_price":6000,"store_name":"Pavilions","store_offer":1100},
+"deal5":{"bank_name":"Valley Food Bank","bank_offer":2100,"driver_name":"Robert Hicks","contents":["Bread", "Tomatoes", "Watermelon"],"distance":4,
+"driver_offer":130,"retail_price":12000,"store_name":"Walmarts","store_offer":2000}
+}

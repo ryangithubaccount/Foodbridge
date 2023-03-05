@@ -1,0 +1,19 @@
+{ "offer1" :  {
+    "store_name": "World Harvest Food Bank",
+    "contents": ["Brocolli, Bread"],
+    "retail_price": 5000,
+    "offer": 1000
+  },
+  "offer2" :  {
+    "store_name": "Vons",
+    "contents": ["Tomato, Potato"],
+    "retail_price": 3500,
+    "offer": 600
+  },
+  "offer3" :  {
+    "store_name": "Walmart",
+    "contents": ["Pasta, Apple"],
+    "retail_price": 4000,
+    "offer": 1000
+  }
+}
